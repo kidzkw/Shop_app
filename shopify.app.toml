@@ -44,24 +44,13 @@ api_version = "2026-07"
   uri = "/webhooks/app/scopes_update"
   topics = [ "app/scopes_update" ]
 
-  [[webhooks.subscriptions]]
-  uri = "/webhooks/customers/data_request"
-  topics = [ "customers/data_request" ]
-  compliance_topics = [ "customers/data_request" ]
-
-  [[webhooks.subscriptions]]
-  uri = "/webhooks/customers/redact"
-  topics = [ "customers/redact" ]
-  compliance_topics = [ "customers/redact" ]
-
-  [[webhooks.subscriptions]]
-  uri = "/webhooks/shop/redact"
-  topics = [ "shop/redact" ]
-  compliance_topics = [ "shop/redact" ]
+  [webhooks.privacy_compliance]
+  customer_data_request_url = "https://bulk-tracking-uploader.onrender.com/webhooks/customers/data_request"
+  customer_deletion_url = "https://bulk-tracking-uploader.onrender.com/webhooks/customers/redact"
+  shop_deletion_url = "https://bulk-tracking-uploader.onrender.com/webhooks/shop/redact"
 
 [auth]
 redirect_urls = [ "https://example.com/api/auth" ]
 
 [build]
-include_config_on_deploy = true
 automatically_update_urls_on_dev = true
