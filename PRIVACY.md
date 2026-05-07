@@ -56,4 +56,4 @@ We may update this Privacy Policy from time to time. Material changes will be co
 
 For questions about this Privacy Policy or to exercise data rights, contact:
 
-**Email:** zhang.kwen@gmail.com
+**Email:** kevin2023505@gmail.lcom
