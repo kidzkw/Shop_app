@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "438c08c536f28fc58ba8a92e2dc4b3c5"
-name = "bulk-tracking-uploader"
+name = "Trackline"
 application_url = "https://example.com"
 embedded = true
 
