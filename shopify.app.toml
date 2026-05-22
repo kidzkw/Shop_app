@@ -2,7 +2,7 @@
 
 client_id = "438c08c536f28fc58ba8a92e2dc4b3c5"
 name = "Trackline"
-application_url = "https://example.com"
+application_url = "https://bulk-tracking-uploader.onrender.com"
 embedded = true
 
 [access_scopes]
@@ -50,7 +50,7 @@ api_version = "2026-07"
   shop_deletion_url = "https://bulk-tracking-uploader.onrender.com/webhooks/shop/redact"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://bulk-tracking-uploader.onrender.com/auth/callback" ]
 
 [build]
 automatically_update_urls_on_dev = true
